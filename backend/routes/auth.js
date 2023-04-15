@@ -110,7 +110,7 @@ router.post(
   }
 );
 
-//Route 3 : Get looged in user details using : POST "/api/auth/getuser". Doesn't require Auth , No login required
+//Route 3 : Get logged in user details using : POST "/api/auth/getuser". Doesn't require Auth , No login required
 router.post(
   "/getuser", fetchuser,
   async (req, res) => {

@@ -7,8 +7,7 @@ import NoteState from "./context/notes/noteState";
 
 function App() {
   return (
-    <>
-    
+    <>    
     <NoteState>
     <Router>
       <Navbar/>

@@ -47,7 +47,7 @@ export const Addnote = () => {
               </label>
               <input
                 type="text"
-                id="tags" name="tags"
+                id="tag" name="tag"
                 className="form-control" onChange={e=>{setTags(e.target.value)}}
               />
             </div>
